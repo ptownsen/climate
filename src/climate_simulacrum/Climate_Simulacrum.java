@@ -25,14 +25,14 @@ public class Climate_Simulacrum extends Application
     public void start(Stage primaryStage)
     {
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+        btn.setText("Say 'So long and thanks for all the fish.'");
         btn.setOnAction(new EventHandler<ActionEvent>()
         {
             
             @Override
             public void handle(ActionEvent event)
             {
-                System.out.println("Hello World!");
+                System.out.println("So long!");
             }
         });
         
@@ -41,7 +41,7 @@ public class Climate_Simulacrum extends Application
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Don't Panic.");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
